@@ -36,7 +36,7 @@ sleep 10
 mongo --host 127.0.0.1:27017 <<EOF
 
 var cfg = {
-    "_id": "rs",
+    "_id": "rs0",
     "version": 1,
     "members": [
         {
